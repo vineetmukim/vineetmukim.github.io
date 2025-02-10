@@ -2283,9 +2283,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
-				background-size: cover; /* or "contain" */
-				background-repeat: no-repeat;
-				background-position: center center;			}
+			}
 
 			#main > section.two {
 				background-color: #f5fafa;
