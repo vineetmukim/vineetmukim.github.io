@@ -2244,6 +2244,26 @@ input, select, textarea {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
+				display: flex; /* Use Flexbox */
+				align-items: center; /* Center the content vertically */
+				justify-content: center; /* Center the content horizontally */
+				min-height: 100vh; /* Ensure the section takes at least the full viewport height */
+				position: relative; /* Needed for absolute positioning of the bottom text */
+			}
+
+			/* Style the container */
+			#main > section.cover .container {
+				text-align: center; /* Center-align the text */
+				width: 100%; /* Ensure the container takes full width */
+			}
+
+			/* Position the bottom text at the bottom of the section */
+			#main > section.cover .bottom-text {
+				position: absolute; /* Position it absolutely within the section */
+				bottom: 2em; /* Place it at the bottom with some spacing */
+				left: 0;
+				right: 0;
+				text-align: center; /* Center-align the text */
 			}
 
 			#main > section.one {
