@@ -2255,6 +2255,20 @@ input, select, textarea {
 			#main > section.cover .container {
 				text-align: center; /* Center-align the text */
 				width: 100%; /* Ensure the container takes full width */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between; /* Distribute space between header and bottom-text */
+				min-height: 100vh; /* Ensure the container takes the full height of the section */
+			}
+
+			/* Position the header at the top */
+			#main > section.cover .container header {
+			    margin-top: 2em; /* Add some spacing at the top */
+			}
+			
+			/* Position the bottom text at the bottom */
+			#main > section.cover .container .bottom-text {
+			    margin-bottom: 2em; /* Add some spacing at the bottom */
 			}
 
 			/* Position the bottom text at the bottom of the section */
