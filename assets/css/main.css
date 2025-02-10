@@ -2283,9 +2283,10 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
-				background-size: contain; /* Change from "cover" to "contain" */
-				background-repeat: no-repeat; /* Prevent the image from repeating */
-				background-position: center center; /* Center the image */
+				background-size: cover; /* or "contain" depending on your preference */
+				background-repeat: no-repeat;
+				background-position: center center;
+				height: 100vh; /* Optional: Set a fixed height */
 			}
 
 			#main > section.two {
