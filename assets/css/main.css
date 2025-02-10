@@ -2283,7 +2283,6 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
-				background-size: contain; /* or "contain" depending on your preference */
 				background-repeat: no-repeat;
 				background-position: center center;
 				height: 100vh; /* Optional: Set a fixed height */
